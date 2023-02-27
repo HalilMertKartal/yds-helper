@@ -1,0 +1,101 @@
+.title {
+    font-size: xx-large;
+    color:rgb(86, 93, 96)
+}
+
+.big-container {
+    min-height: 90vh;
+    overflow: hidden;
+}
+
+.question {
+    font-size: xx-large;
+    min-height: 150px;
+    margin-top: 27%;
+    margin-left: 1%;
+}
+
+.choice-list {
+    min-height: 300px;
+}
+
+.next-btn {
+    float: right;
+}
+
+.finish-btn {
+    float: left;
+}
+
+.finished-text {
+    transform: translate(-50%, -50%);
+    padding-top: 30%;
+    left: 50%;
+    position: absolute;
+    font-size: 80px;
+    color: rgb(48, 54, 48);
+}
+
+.finished-info{
+    text-align:center; 
+    color: rgb(48, 54, 48);
+    margin-bottom:25%;
+}
+
+.finish-div {
+    margin-top:30%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 60%;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    max-width: 700px;
+    min-width: 700px;
+}
+
+.stats-container {
+    transform: translate(-50%, -50%);
+    margin-top: 10%;
+    left: 50%;
+    position: absolute;
+    color: rgb(48, 54, 48);
+}
+
+.stats-correct {
+    font-size: 20px;
+    color: green;
+}
+
+.stats-wrong {
+    font-size: 20px;
+    color:red;
+}
+
+.timer {
+    margin-left: 50%;
+    margin-top: 15%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: x-large;
+}
+
+.settings-btn {
+    position: absolute;
+    left: 85%;
+    top: 10%;
+}
+
+.slider{
+    margin-top: 30%;
+    color: red !important;
+}
+
+.slider-label {
+    font-size: 25px !important;
+    color:deeppink !important;
+}
